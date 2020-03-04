@@ -1,0 +1,26 @@
+How to create a solid wireframe-
+Figuring out how you want the site to flow. 'User Journey'.
+
+Managing width vs padding, border, etc
+width: calc(50% - 80px)
+    - takes care of additonal pixels that get added in after you've declared your percent
+
+border-box also does something similar, and takes care of nonsense
+
+floats -
+clear: both;
+overflow: hidden;
+
+margin auto only works for block level elements
+if you display inline block when you float, you can last-child/first-child to float, and text-align center will get the center element to move
+
+fixing content behind the footer:
+set height on fixed footer-
+on the body, add padding to the height of the footer + a little extra;
+
+
+
+
+
+
+keep your padding / margin consistent. If you use 30, use it the entire time if you can.
