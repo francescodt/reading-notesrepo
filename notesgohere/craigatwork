@@ -70,3 +70,17 @@ var multiLineArray
 function newFunction() {
     return [];
 }
+
+Person.whisper = function() {
+    console.log('sssshhhh');
+}
+initalizing a whisper property on the person constructor, initializes a function, which logs the string shh
+
+Person.prototype.sayMyName = function() {
+    console.log( this.fullName.toUpperCase() );
+
+}
+
+saymyname property on the person prototype,
+
+
