@@ -1,0 +1,150 @@
+Question 1
+1.5 / 1.5 pts
+In your terminal, which command will navigate to the immediate parent directory of your current working directory?
+
+cd ..
+That's correct! 
+  
+ 
+IncorrectQuestion 2
+0 / 1.5 pts
+In your terminal, you are working in the master branch of a Git repo. Which of the following Git commands will create and check out a new branch named "foo" as a copy of the master branch?
+  
+git pull master foo
+  
+git cp master foo//
+  
+git checkout -b foo
+  
+git checkout foo
+ 
+Question 3
+1.5 / 1.5 pts
+Which of the following statements is not consistent with Agile Development philosophy?
+  Once software requirements are determined by user stories, they should never be changed during the development lifecycle. 
+
+ 
+IncorrectQuestion 4
+0 / 1.5 pts
+When incorporating jQuery into your project, you should link to it:
+  in your HTML,  before your custom script or any other libraries which depend on jQuery.  
+  in your CSS, using an import statement. 
+  in your custom JavaScript file, at the top of the script. 
+ 
+Question 5
+1.5 / 1.5 pts
+$('li[id!="one"]').hide().delay(500).fadeIn(1400);
+Applying a sequence of jQuery methods to the same selection of elements (as shown above) is called what?
+
+  Chaining 
+ 
+IncorrectQuestion 6
+0 / 1.5 pts
+Given the following HTML snippet:
+
+<ul class="foo">
+  <li>Model</li>
+  <li>View</li>
+  <li class="is-active">Controller</li>
+</ul>
+What will be returned from the following jQuery code?
+
+$('li')
+ 
+
+  Nothing.  
+  A jQuery object containing all three list items. 
+  A jQuery object containing the first two list items. 
+ 
+Question 7
+1.5 / 1.5 pts
+You would like to add a click event listener to an element with the ID of "button-1". How might you do this with jQuery?
+  
+$('#button-1').on('click', function() {
+  // Your code here
+});
+
+Question 8
+1.5 / 1.5 pts
+Functions that are meant to be executed at a later point, for instance when some event occurs, are often called:
+
+  callback functions 
+ 
+IncorrectQuestion 9
+0 / 1.5 pts
+Given the following HTML snippet:
+
+<section id="incomplete-tasks">
+  <h2></h2>
+  <ul>
+    <li></li>
+    <li class="skippy"></li>
+    <li class="skippy"></li>
+  </ul>
+</section>
+Assuming you have already have a jQuery object holding the h2 element above (stored as `$h2`), how might you traverse the DOM with jQuery to target the second and third list items?
+
+  
+$h2.$('li')
+  
+$h2.children('li')
+  
+$h2.next('ul').children('.skippy')
+ 
+IncorrectQuestion 10
+0 / 1.5 pts
+Which example below shows how you can prevent default behavior of elements (e.g., link clicks or form submissions) using event handling?
+  
+function eventHandler() {
+  e.preventDefault();
+  // Do other stuff
+}
+  
+  
+function eventHandler() {
+  preventDefault();
+  // Do other stuff
+}
+  
+function eventHandler(event) {
+  event.preventDefault();
+  // Do other stuff
+}
+
+
+
+
+
+/ ------- ajax --------- /
+
+const ajaxSettings = {
+    method: 'get',
+    dataType: 'json'
+};
+console.log('about to AJAX', ajaxSettings);
+$.ajaz('data.json', ajaxSettings)
+    .then(function (data) {
+        console.log(data);
+
+
+        data.forEach(dog => {
+            console.log(dog.name);
+
+            let actualDog = new Dog(dog);
+            actualDog.render(main section');
+        })
+
+    });
+
+
+Dog.prototype.redner = function(container) {
+    let $container = $(container);
+    let $template = $container.find('.dogtemplate');
+
+    let $dog = $template.clone();
+    $dog.removeClass('dog-template');
+    $dog.find('h2').text(this.name);
+    $dog.find('img').attr(src', this.image_url);
+    $container.append($dog);
+    
+}
