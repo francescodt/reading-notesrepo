@@ -1,0 +1,77 @@
+Question 1
+1 / 1 pts
+What characters does Handlebars use to wrap JavaScript expressions?
+
+  {{ }} 
+ 
+Question 2
+1 / 1 pts
+How do you wrap a Handlebars expression to render <strong>Hello World</strong>  as HTML instead of text?
+  {{{< strong >Hello World</strong >}}} 
+ 
+Question 3
+1 / 1 pts
+When listening for multiple events in jQuery how do you separate each event type?
+  space 
+ 
+Question 4
+1 / 1 pts
+Where does CodeFellows recommend loading jQuery in your HTML file?
+  Bottom of body tag (but before any scripts that depend upon it.) 
+ 
+Question 5
+1 / 1 pts
+What kind of tool do we use to analyze our JavaScript for potential errors?
+  Linter 
+ 
+Question 6
+1 / 1 pts
+ 
+
+let isMember = true;
+
+const ticketPrice = isMember ? '$2.00' : '$10.00';
+What is value of ticketPrice?
+ 
+  $2.00 
+
+ 
+Question 7
+1 / 1 pts
+What will log to the debug console?
+
+
+const title = 'Boss';
+
+if (title === 'Boss') {
+
+title = title.toUpperCase();
+
+}
+
+console.log('Title:', title);
+
+
+
+
+  Nothing, there is an error in the code. 
+ 
+Question 8
+1 / 1 pts
+What is a reason to NOT use an ES6 arrow function?
+  The function needs to refer to the contextual "this" 
+ 
+Question 9
+1 / 1 pts
+What values does JavaScript consider 'falsy' ?
+  false 
+  -1 
+  undefined 
+  empty string 
+  0 
+  null 
+ 
+Question 10
+1 / 1 pts
+When a function is a property of an object what is it called?
+  method 

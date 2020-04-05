@@ -10,13 +10,8 @@ IncorrectQuestion 2
 0 / 1.5 pts
 In your terminal, you are working in the master branch of a Git repo. Which of the following Git commands will create and check out a new branch named "foo" as a copy of the master branch?
   
-git pull master foo
-  
-git cp master foo//
-  
 git checkout -b foo
   
-git checkout foo
  
 Question 3
 1.5 / 1.5 pts
@@ -50,11 +45,8 @@ Given the following HTML snippet:
 What will be returned from the following jQuery code?
 
 $('li')
- 
-
-  Nothing.  
+  
   A jQuery object containing all three list items. 
-  A jQuery object containing the first two list items. 
  
 Question 7
 1.5 / 1.5 pts
@@ -95,16 +87,6 @@ IncorrectQuestion 10
 0 / 1.5 pts
 Which example below shows how you can prevent default behavior of elements (e.g., link clicks or form submissions) using event handling?
   
-function eventHandler() {
-  e.preventDefault();
-  // Do other stuff
-}
-  
-  
-function eventHandler() {
-  preventDefault();
-  // Do other stuff
-}
   
 function eventHandler(event) {
   event.preventDefault();
