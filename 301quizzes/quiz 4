@@ -1,0 +1,98 @@
+Question 1
+1 / 1 pts
+A function that runs as soon as it is defined is known as a ...
+
+  Immediately Invoked Function Expression 
+ 
+ 
+Question 2
+1 / 1 pts
+What is the value of this expression?
+
+[0,'false','',null,false,undefined].filter(item => item)
+ 
+  ['false'] 
+ 
+ 
+Question 3
+1 / 1 pts
+The Array's reduce method must take an array as an argument and return an array;
+
+  False 
+ 
+IncorrectQuestion 4
+0 / 1 pts
+The process of retrieving data from multiple tables in a single SELECT query is known as a
+  JOIN 
+
+
+ 
+Question 5
+1 / 1 pts
+A field in one table that refers to the PRIMARY KEY in another table is known as a...
+
+  FOREIGN KEY 
+ 
+Question 6
+1 / 1 pts
+The process of organizing the columns and tables of a relational database to reduce data redundancy and improve data integrity is known as...
+ 
+  normalization 
+
+ 
+Question 7
+1 / 1 pts
+Functions that operate on other functions are known as...
+ 
+  higher order functions 
+ 
+Question 8
+1 / 1 pts
+What is the result of this expression?
+
+[4,5,6].reduce( (acc,cur) => acc + cur)
+
+  15 
+
+ 
+Question 9
+1 / 1 pts
+Which Array method would you choose to double the values in array [1,2,3,4] ?
+
+  map 
+ 
+Question 10
+1 / 1 pts
+A function where the return value is only determined by its input values, without observable side effects is known as a...
+
+  pure function 
+ 
+Question 11
+1 / 1 pts
+Consider two tables, PLAYER and TEAM
+
+ 
+
+PLAYER has the following columns:
+
+- id
+
+- team_id (this is foreign key)
+
+- name
+
+ 
+
+TEAM has the following attributes
+
+- id
+
+- city
+
+- mascot
+
+ 
+
+TEAM and PLAYER have 1:N relationship. The relationship is specified by foreign key ‘team_id’ inside the PLAYER table. In order to find 'name', ‘city’ & ‘mascot’ for all the players in your database, you will run which of the following query? 
+
+  SELECT name, city, mascot FROM PLAYER JOIN TEAM ON TEAM.id = PLAYER.team_id 
