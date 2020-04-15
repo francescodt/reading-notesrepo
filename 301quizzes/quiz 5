@@ -1,0 +1,117 @@
+Question 1
+1 / 1 pts
+Match the "CRUD" operation with the corresponding HTTP verb.
+CREATE POST 
+READ   GET  
+UPDATE PUT 
+DELETE DELETE
+ 
+IncorrectQuestion 2
+0 / 1 pts
+With the following code...
+
+app.get('/api/v1/books/:id', (req, res) ={...}
+How would you retrieve the corresponding value of 'id' ?
+
+  req.params.id 
+ 
+ 
+Question 3
+1 / 1 pts
+The express method that enables the server to accept communication on a given port is...
+
+  listen 
+
+ 
+Question 4
+1 / 1 pts
+In order to apply CSS styling only when screen width >= 1000px
+
+  @media (min-width: 1000px) 
+ 
+Question 5
+1 / 1 pts
+Representational State Transfer (or REST) can be best defined as...
+ 
+  The convention where every resource is uniquely addressable using a uniform and minimal set of commands (typically using HTTP commands of GET, POST, PUT, or DELETE over the Internet) 
+ 
+Question 6
+1 / 1 pts
+
+const obj = {
+  myMethod: function() {}
+}
+
+const objectAsString = JSON.stringify(obj);
+What is the value of objectAsString?
+
+  '{}' 
+ 
+ 
+Question 7
+1 / 1 pts
+What SQL keyword should be used instead of [REPLACE_ME] ?
+
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers [REPLACE_ME] Orders.CustomerID=Customers.CustomerID;
+ 
+  ON 
+ 
+Question 8
+1 / 1 pts
+In Express.js functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle are known as...
+
+  middleware 
+
+ 
+Question 9
+1 / 1 pts
+In a restful api how is it possible for the end point
+
+/api/books
+to retrieve a list of books as well as add a book?
+
+  By using different HTTP verbs, in this case GET and POST. 
+
+ 
+Question 10
+1 / 1 pts
+What is the class of HTTP error codes that indicate a case where client seems to have erred?
+
+  4xx 
+
+ 
+Question 11
+1 / 1 pts
+Consider the following JavaScript code:
+
+<script>
+
+  function Animal(breed) {
+
+    this.breed = breed;
+
+  };
+
+ 
+
+  Animal.prototype.intro = () => {
+
+    console.log(`Hi, I'm a ${this.breed}`);
+
+  };
+
+ 
+
+  let animal = new Animal(‘cow’);
+
+</script>
+
+ 
+
+When the intro function is called for the ‘animal’ object, what is logged to the console? 
+ 
+  Hi, I'm a undefined 
+  
