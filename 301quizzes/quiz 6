@@ -1,0 +1,61 @@
+What are the three parts of an HTTP request?
+  URL, Method, Headers 
+
+Question 2
+1 / 1 pts
+What are the three parts of an HTTP response?
+  Status, Headers, Response Body 
+
+Question 3
+1 / 1 pts
+In the Model View Controller pattern which part manages the application data?
+  Model 
+
+Question 4
+1 / 1 pts
+In Express.js the code
+process.env.FOO
+means that FOO is stored where?
+  In the server's ENVIRONMENT VARIABLES 
+
+Question 5
+1 / 1 pts
+A JavaScript object's properties are considered "public" when...
+  The properties are directly accessible from outside the object. 
+
+Question 6
+1 / 1 pts
+Is a git merge possible when conflicts are encountered?
+  Yes, but the conflicts must be resolved first. 
+
+Question 7
+1 / 1 pts
+What does the 'C' in MVC stand for?
+  Controller 
+
+Question 8
+0 / 1 pts
+How could you retrieve the text 'list item 2' from following markup using jQuery?
+<ul>
+ <li>list item 1</li>
+ <li>list item 2</li>
+ <li>list item 3</li>
+ <li>list item 4</li>
+ <li>list item 5</li>
+</ul>
+  $('li:eq(1)').text() 
+
+Question 9
+0 / 1 pts
+What is a key difference between the jQuery .find() and .children() methods?
+.children() only travels a single level down the DOM tree 
+
+Question 10
+0 / 1 pts
+Which method does NOT properly return the sum of arguments a and b?
+  (a,b) => { a + b; } 
+
+Question 11
+0 / 1 pts
+Which of the following JavaScript statements will cause the paragraph text to change to 'bye' when clicked by the user?
+  $('#p1').on('click', function(event){ $(this).text('bye'); });

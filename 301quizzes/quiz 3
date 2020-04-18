@@ -1,0 +1,60 @@
+Question 1
+1 / 1 pts
+What is the name of a collection of related data held in a structured format within a database?
+  table 
+
+Question 2
+1 / 1 pts
+What is the name of a SQL statement that allows retrieval of a useful subset of data?
+  Query 
+
+Question 3
+1 / 1 pts
+Your node project will likely have dependencies on other libraries. Where are those dependencies declared?
+  package.json 
+
+Question 4
+1 / 1 pts
+Which SQL statement will retrieve only unique values?
+  SELECT DISTINCT column1, column2 FROM table_name 
+
+Question 5
+1 / 1 pts
+Which of the following text is valid JSON? (Select all that apply.)
+  {"key":3} 
+  [1,2,3,4] 
+  {"key":true} 
+  {"key":"value"} 
+
+Question 6
+1 / 1 pts
+Which code will convert a JavaScript object into valid JSON?
+  JSON.stringify(object) 
+
+Question 7
+1 / 1 pts
+Which are valid jQuery methods to retrieve data via AJAX? (Select all that apply.)
+  $.getJSON 
+  $.ajax 
+  $.get 
+
+Question 8
+1 / 1 pts
+What does SQL stand for?
+  Structured Query Language 
+
+Question 9
+1 / 1 pts
+What is the terminal command to initialize a node project?
+  npm init 
+
+Question 10
+1 / 1 pts
+We will be using a JavaScript library named Express. What is Express?
+  A web framework for Node.js 
+  
+Question 11
+1 / 1 pts
+Describe the result of this jQuery snippet. 
+$('<p>hello</p>');
+  The code once executed will only create a paragraph element but will leave the DOM unmodified
